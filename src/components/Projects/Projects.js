@@ -39,11 +39,11 @@ function Projects() {
               title="NewsApp"
               description="Develop a news app using React.js and the News API to display current articles"
               ghLink="https://github.com/rahimkhan07/News-App"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink=""
               // demoLink="   <-------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
