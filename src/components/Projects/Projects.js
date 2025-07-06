@@ -28,7 +28,7 @@ function Projects() {
               title="Recipe-Finder"
               description="Build a Recipe Finder app using React.js and Hooks, integrating API for recipes. Search favorite recipes easily with user-friendly design and responsive interface. "
               ghLink="https://github.com/rahimkhan07/Recipe-Finder-App"
-              demoLink="https://chatify-49.web.app/"
+              demoLink=""
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="E-commerce App"
               description="An E-commerce web app built using ReactJS, HTML, CSS, and Bootstrap offers responsive design, user-friendly interfaces, dynamic product listings, and efficient cart management for seamless online shopping experiences."
-              ghLink=""
+              ghLink="https://github.com/rahimkhan07/E-commerce.git"
               demoLink=""              
             />
           </Col>
@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Weather App"
               description="A Weather web app built with ReactJS, HTML, and CSS integrates a Weather API to provide real-time weather updates, current date, and time. It offers responsive design and accurate forecasts for user convenience."
-              ghLink=""
+              ghLink="https://github.com/rahimkhan07/Weather-App.git"
               demoLink=""
             />
           </Col>
@@ -72,7 +72,7 @@ function Projects() {
               isBlog={false}
               title="RentCar Website"
               description="A rent car website built with PHP, HTML, CSS, Bootstrap, and MySQL provides responsive design, car listings, booking forms, secure user login, real-time availability checks, and a database for managing rentals and user data."
-              ghLink=""
+              ghLink="https://github.com/rahimkhan07/rentCar.git"
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
