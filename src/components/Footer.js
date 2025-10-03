@@ -24,7 +24,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/rahimkhan07"
-                style={{ color: "black" }}
+                style={{ color: "#65799b" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href=""
-                style={{ color: "black" }}
+                style={{ color: "#65799b" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -44,7 +44,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/rahim-r72/"
-                style={{ color: "black" }}
+                style={{ color: "#65799b" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href=""
-                style={{ color: "black" }}
+                style={{ color: "#65799b" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

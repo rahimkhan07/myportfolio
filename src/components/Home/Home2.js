@@ -7,10 +7,24 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { AiOutlineDownload } from 'react-icons/ai';
 import { FaLinkedinIn } from "react-icons/fa";
+import myCV from "../../Assets/RahimKhan.pdf";
 
 
 function Home2() {
+
+  const handleDownload = () => {
+      console.log("handleDownload");
+      const link = document.createElement("a");
+      link.href = myCV;
+      link.download = "RahimKhan.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -48,7 +62,10 @@ function Home2() {
                 <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
+            <button onClick={handleDownload} style={{ padding: "1vh", marginLeft: "0vh", border: "none", border: " 2px solid #65799b", borderRadius: "1vh", color: "#65799b", fontWeight: "bold", cursor: "pointer", zIndex:1000, position:"relative" }}> <AiOutlineDownload size={25} />Get  CV </button>
           </Col>
+          
+          
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
