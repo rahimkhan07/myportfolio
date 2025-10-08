@@ -9,16 +9,6 @@ import Type from "./Type";
 
 function Home() {
 
-
-
-
-  // const handleDownload = () => {
-  //   const link = document.createElement('a');
-  //   link.href =  "../../Assets/RahimKhan.pdf"; // Path to your PDF file in public folder
-  //   link.download = 'sample.pdf'; // Suggested file name
-  //   link.click();
-  // };
-
   return (
     <section>
       <Container fluid className="home-section" id="home">
