@@ -743,3 +743,22 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* GitHub Repos */
+/* --------- */
+.repo-card-view {
+  box-shadow: 0 4px 5px 3px #65799b !important;
+  color: #65799b !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-radius: 8px !important;
+}
+
+.repo-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 6px 8px 5px #65799b !important;
+}
