@@ -553,15 +553,20 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  font-size: 2.4em !important;
+  margin: 10px !important;
+  padding: 0 !important;
   opacity: 0.93 !important;
   border: 1.7px solid #e2eff1 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 72px !important;
+  height: 72px !important;
   box-shadow: 4px 2px 4px 3px #65799b !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
