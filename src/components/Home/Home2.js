@@ -62,7 +62,7 @@ function Home2() {
                 <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
-            <button onClick={handleDownload} style={{ padding: "1vh", marginLeft: "0vh", border: "none", border: " 2px solid #65799b", borderRadius: "1vh", color: "#65799b", fontWeight: "bold", cursor: "pointer", zIndex:1000, position:"relative" }}> <AiOutlineDownload size={25} />Get  CV </button>
+            <button onClick={handleDownload} style={{ padding: "1vh", marginLeft: "0vh", border: "2px solid #65799b", borderRadius: "1vh", color: "#65799b", fontWeight: "bold", cursor: "pointer", zIndex:1000, position:"relative" }}> <AiOutlineDownload size={25} />Get  CV </button>
           </Col>
           
           
@@ -91,7 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -111,7 +111,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
