@@ -31,7 +31,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="#" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <h2 style={{ color: "#65799b"}}>
             <b>RAHIM.</b>
